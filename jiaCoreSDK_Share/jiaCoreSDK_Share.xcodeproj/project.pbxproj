@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		347CC0981D2A527F00BFE7EE /* jiaCoreSDK_Share.h in Headers */ = {isa = PBXBuildFile; fileRef = 347CC0971D2A527F00BFE7EE /* jiaCoreSDK_Share.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		347CC09F1D2A527F00BFE7EE /* jiaCoreSDK_Share.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 347CC0941D2A527F00BFE7EE /* jiaCoreSDK_Share.framework */; settings = {ASSET_TAGS = (); }; };
+		347CC0A41D2A527F00BFE7EE /* jiaCoreSDK_ShareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 347CC0A31D2A527F00BFE7EE /* jiaCoreSDK_ShareTests.m */; };
+		347CC0B01D2A5FE900BFE7EE /* jiaLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 347CC0AE1D2A5FE900BFE7EE /* jiaLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		347CC0B11D2A5FE900BFE7EE /* jiaLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 347CC0AF1D2A5FE900BFE7EE /* jiaLogger.m */; settings = {ASSET_TAGS = (); }; };
+		347CC0BB1D2A69C900BFE7EE /* jiaCoreSDK_Share.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 347CC0BA1D2A69C900BFE7EE /* jiaCoreSDK_Share.bundle */; settings = {ASSET_TAGS = (); }; };
+		347CC0BE1D2A6A5600BFE7EE /* jiaDefaultImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 347CC0BC1D2A6A5600BFE7EE /* jiaDefaultImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		347CC0BF1D2A6A5600BFE7EE /* jiaDefaultImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 347CC0BD1D2A6A5600BFE7EE /* jiaDefaultImage.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		347CC0A01D2A527F00BFE7EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 347CC08B1D2A527F00BFE7EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 347CC0931D2A527F00BFE7EE;
+			remoteInfo = jiaCoreSDK_Share;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		347CC0941D2A527F00BFE7EE /* jiaCoreSDK_Share.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = jiaCoreSDK_Share.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		347CC0971D2A527F00BFE7EE /* jiaCoreSDK_Share.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jiaCoreSDK_Share.h; sourceTree = "<group>"; };
+		347CC0991D2A527F00BFE7EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		347CC09E1D2A527F00BFE7EE /* jiaCoreSDK_ShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jiaCoreSDK_ShareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		347CC0A31D2A527F00BFE7EE /* jiaCoreSDK_ShareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jiaCoreSDK_ShareTests.m; sourceTree = "<group>"; };
+		347CC0A51D2A527F00BFE7EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		347CC0AE1D2A5FE900BFE7EE /* jiaLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jiaLogger.h; sourceTree = "<group>"; };
+		347CC0AF1D2A5FE900BFE7EE /* jiaLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jiaLogger.m; sourceTree = "<group>"; };
+		347CC0BA1D2A69C900BFE7EE /* jiaCoreSDK_Share.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = jiaCoreSDK_Share.bundle; sourceTree = "<group>"; };
+		347CC0BC1D2A6A5600BFE7EE /* jiaDefaultImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jiaDefaultImage.h; sourceTree = "<group>"; };
+		347CC0BD1D2A6A5600BFE7EE /* jiaDefaultImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jiaDefaultImage.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		347CC0901D2A527F00BFE7EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		347CC09B1D2A527F00BFE7EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				347CC09F1D2A527F00BFE7EE /* jiaCoreSDK_Share.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		347CC08A1D2A527F00BFE7EE = {
+			isa = PBXGroup;
+			children = (
+				347CC0961D2A527F00BFE7EE /* jiaCoreSDK_Share */,
+				347CC0A21D2A527F00BFE7EE /* jiaCoreSDK_ShareTests */,
+				347CC0951D2A527F00BFE7EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		347CC0951D2A527F00BFE7EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				347CC0941D2A527F00BFE7EE /* jiaCoreSDK_Share.framework */,
+				347CC09E1D2A527F00BFE7EE /* jiaCoreSDK_ShareTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		347CC0961D2A527F00BFE7EE /* jiaCoreSDK_Share */ = {
+			isa = PBXGroup;
+			children = (
+				347CC0B91D2A699F00BFE7EE /* Resources */,
+				347CC0971D2A527F00BFE7EE /* jiaCoreSDK_Share.h */,
+				347CC0991D2A527F00BFE7EE /* Info.plist */,
+				347CC0AE1D2A5FE900BFE7EE /* jiaLogger.h */,
+				347CC0AF1D2A5FE900BFE7EE /* jiaLogger.m */,
+				347CC0BC1D2A6A5600BFE7EE /* jiaDefaultImage.h */,
+				347CC0BD1D2A6A5600BFE7EE /* jiaDefaultImage.m */,
+			);
+			path = jiaCoreSDK_Share;
+			sourceTree = "<group>";
+		};
+		347CC0A21D2A527F00BFE7EE /* jiaCoreSDK_ShareTests */ = {
+			isa = PBXGroup;
+			children = (
+				347CC0A31D2A527F00BFE7EE /* jiaCoreSDK_ShareTests.m */,
+				347CC0A51D2A527F00BFE7EE /* Info.plist */,
+			);
+			path = jiaCoreSDK_ShareTests;
+			sourceTree = "<group>";
+		};
+		347CC0B91D2A699F00BFE7EE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				347CC0BA1D2A69C900BFE7EE /* jiaCoreSDK_Share.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		347CC0911D2A527F00BFE7EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				347CC0981D2A527F00BFE7EE /* jiaCoreSDK_Share.h in Headers */,
+				347CC0B01D2A5FE900BFE7EE /* jiaLogger.h in Headers */,
+				347CC0BE1D2A6A5600BFE7EE /* jiaDefaultImage.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		347CC0931D2A527F00BFE7EE /* jiaCoreSDK_Share */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 347CC0A81D2A527F00BFE7EE /* Build configuration list for PBXNativeTarget "jiaCoreSDK_Share" */;
+			buildPhases = (
+				347CC08F1D2A527F00BFE7EE /* Sources */,
+				347CC0901D2A527F00BFE7EE /* Frameworks */,
+				347CC0911D2A527F00BFE7EE /* Headers */,
+				347CC0921D2A527F00BFE7EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jiaCoreSDK_Share;
+			productName = jiaCoreSDK_Share;
+			productReference = 347CC0941D2A527F00BFE7EE /* jiaCoreSDK_Share.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		347CC09D1D2A527F00BFE7EE /* jiaCoreSDK_ShareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 347CC0AB1D2A527F00BFE7EE /* Build configuration list for PBXNativeTarget "jiaCoreSDK_ShareTests" */;
+			buildPhases = (
+				347CC09A1D2A527F00BFE7EE /* Sources */,
+				347CC09B1D2A527F00BFE7EE /* Frameworks */,
+				347CC09C1D2A527F00BFE7EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				347CC0A11D2A527F00BFE7EE /* PBXTargetDependency */,
+			);
+			name = jiaCoreSDK_ShareTests;
+			productName = jiaCoreSDK_ShareTests;
+			productReference = 347CC09E1D2A527F00BFE7EE /* jiaCoreSDK_ShareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		347CC08B1D2A527F00BFE7EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = wujunyang;
+				TargetAttributes = {
+					347CC0931D2A527F00BFE7EE = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					347CC09D1D2A527F00BFE7EE = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 347CC08E1D2A527F00BFE7EE /* Build configuration list for PBXProject "jiaCoreSDK_Share" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 347CC08A1D2A527F00BFE7EE;
+			productRefGroup = 347CC0951D2A527F00BFE7EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				347CC0931D2A527F00BFE7EE /* jiaCoreSDK_Share */,
+				347CC09D1D2A527F00BFE7EE /* jiaCoreSDK_ShareTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		347CC0921D2A527F00BFE7EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				347CC0BB1D2A69C900BFE7EE /* jiaCoreSDK_Share.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		347CC09C1D2A527F00BFE7EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		347CC08F1D2A527F00BFE7EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				347CC0BF1D2A6A5600BFE7EE /* jiaDefaultImage.m in Sources */,
+				347CC0B11D2A5FE900BFE7EE /* jiaLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		347CC09A1D2A527F00BFE7EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				347CC0A41D2A527F00BFE7EE /* jiaCoreSDK_ShareTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		347CC0A11D2A527F00BFE7EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 347CC0931D2A527F00BFE7EE /* jiaCoreSDK_Share */;
+			targetProxy = 347CC0A01D2A527F00BFE7EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		347CC0A61D2A527F00BFE7EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		347CC0A71D2A527F00BFE7EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		347CC0A91D2A527F00BFE7EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = jiaCoreSDK_Share/Info.plist;
+				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wjy.jiaCoreSDK-Share";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				STRIP_STYLE = "non-global";
+			};
+			name = Debug;
+		};
+		347CC0AA1D2A527F00BFE7EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = jiaCoreSDK_Share/Info.plist;
+				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wjy.jiaCoreSDK-Share";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+		347CC0AC1D2A527F00BFE7EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = jiaCoreSDK_ShareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wjy.jiaCoreSDK-ShareTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		347CC0AD1D2A527F00BFE7EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = jiaCoreSDK_ShareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wjy.jiaCoreSDK-ShareTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		347CC08E1D2A527F00BFE7EE /* Build configuration list for PBXProject "jiaCoreSDK_Share" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				347CC0A61D2A527F00BFE7EE /* Debug */,
+				347CC0A71D2A527F00BFE7EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		347CC0A81D2A527F00BFE7EE /* Build configuration list for PBXNativeTarget "jiaCoreSDK_Share" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				347CC0A91D2A527F00BFE7EE /* Debug */,
+				347CC0AA1D2A527F00BFE7EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		347CC0AB1D2A527F00BFE7EE /* Build configuration list for PBXNativeTarget "jiaCoreSDK_ShareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				347CC0AC1D2A527F00BFE7EE /* Debug */,
+				347CC0AD1D2A527F00BFE7EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 347CC08B1D2A527F00BFE7EE /* Project object */;
+}

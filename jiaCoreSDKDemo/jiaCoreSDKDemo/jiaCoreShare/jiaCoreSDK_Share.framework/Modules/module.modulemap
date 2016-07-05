@@ -1,0 +1,6 @@
+framework module jiaCoreSDK_Share {
+  umbrella header "jiaCoreSDK_Share.h"
+
+  export *
+  module * { export * }
+}
