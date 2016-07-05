@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:jiaCoreDemoAndSDK/jiaCoreDemoAndSDK.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:jiaCoreSDK_Share/jiaCoreSDK_Share.xcodeproj">
    </FileRef>
    <FileRef
