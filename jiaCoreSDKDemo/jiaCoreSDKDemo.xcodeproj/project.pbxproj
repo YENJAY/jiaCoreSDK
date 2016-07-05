@@ -17,8 +17,8 @@
 		347CC01B1D2A29F400BFE7EE /* jiaCoreSDKDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 347CC01A1D2A29F400BFE7EE /* jiaCoreSDKDemoUITests.m */; };
 		347CC05A1D2A39DB00BFE7EE /* libjiaCoreSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 347CC0591D2A39DB00BFE7EE /* libjiaCoreSDK.a */; settings = {ASSET_TAGS = (); }; };
 		347CC05C1D2A3A2900BFE7EE /* jiaCoreSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 347CC05B1D2A3A2900BFE7EE /* jiaCoreSDK.bundle */; settings = {ASSET_TAGS = (); }; };
-		34F6A3551D2AB58F005D5D51 /* jiaCoreSDK_Share.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34F6A3541D2AB58F005D5D51 /* jiaCoreSDK_Share.framework */; settings = {ASSET_TAGS = (); }; };
-		34F6A35D1D2ABE17005D5D51 /* jiaCoreSDK_Share.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 34F6A35B1D2ABE17005D5D51 /* jiaCoreSDK_Share.bundle */; settings = {ASSET_TAGS = (); }; };
+		34B615831D2B8231007B1C5C /* jiaCoreSDK_Share.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 34B615811D2B8231007B1C5C /* jiaCoreSDK_Share.bundle */; settings = {ASSET_TAGS = (); }; };
+		34B615841D2B8231007B1C5C /* jiaCoreSDK_Share.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B615821D2B8231007B1C5C /* jiaCoreSDK_Share.framework */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,8 +60,8 @@
 		347CC0551D2A338100BFE7EE /* jiaBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jiaBaseViewController.h; sourceTree = "<group>"; };
 		347CC0591D2A39DB00BFE7EE /* libjiaCoreSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libjiaCoreSDK.a; sourceTree = "<group>"; };
 		347CC05B1D2A3A2900BFE7EE /* jiaCoreSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = jiaCoreSDK.bundle; sourceTree = "<group>"; };
-		34F6A3541D2AB58F005D5D51 /* jiaCoreSDK_Share.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = jiaCoreSDK_Share.framework; sourceTree = "<group>"; };
-		34F6A35B1D2ABE17005D5D51 /* jiaCoreSDK_Share.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = jiaCoreSDK_Share.bundle; sourceTree = "<group>"; };
+		34B615811D2B8231007B1C5C /* jiaCoreSDK_Share.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = jiaCoreSDK_Share.bundle; sourceTree = "<group>"; };
+		34B615821D2B8231007B1C5C /* jiaCoreSDK_Share.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = jiaCoreSDK_Share.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +70,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				347CC05A1D2A39DB00BFE7EE /* libjiaCoreSDK.a in Frameworks */,
-				34F6A3551D2AB58F005D5D51 /* jiaCoreSDK_Share.framework in Frameworks */,
+				34B615841D2B8231007B1C5C /* jiaCoreSDK_Share.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,8 +170,8 @@
 		347CC0B21D2A677200BFE7EE /* jiaCoreShare */ = {
 			isa = PBXGroup;
 			children = (
-				34F6A35B1D2ABE17005D5D51 /* jiaCoreSDK_Share.bundle */,
-				34F6A3541D2AB58F005D5D51 /* jiaCoreSDK_Share.framework */,
+				34B615811D2B8231007B1C5C /* jiaCoreSDK_Share.bundle */,
+				34B615821D2B8231007B1C5C /* jiaCoreSDK_Share.framework */,
 			);
 			path = jiaCoreShare;
 			sourceTree = "<group>";
@@ -279,7 +279,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34F6A35D1D2ABE17005D5D51 /* jiaCoreSDK_Share.bundle in Resources */,
+				34B615831D2B8231007B1C5C /* jiaCoreSDK_Share.bundle in Resources */,
 				347CC05C1D2A3A2900BFE7EE /* jiaCoreSDK.bundle in Resources */,
 				347CC0051D2A29F400BFE7EE /* LaunchScreen.storyboard in Resources */,
 				347CC0021D2A29F400BFE7EE /* Assets.xcassets in Resources */,

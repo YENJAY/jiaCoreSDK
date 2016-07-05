@@ -4,10 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>.DS_Store</key>
-		<data>
-		BVtbIw3uDxa1KJSqvvmExVMOQsI=
-		</data>
 		<key>Headers/jiaCoreSDK_Share.h</key>
 		<data>
 		tleD7KwSSzQMxKfE6x3xOlihqh4=
@@ -20,27 +16,6 @@
 		<data>
 		Oo7jGzhY0mWpybQ81akjbNpCWB4=
 		</data>
-		<key>Images.bundle/Root.plist</key>
-		<data>
-		jOhqEUF1/xyY+fuswiWT+ELC3dI=
-		</data>
-		<key>Images.bundle/default_portrait_msg@2x.png</key>
-		<data>
-		C0s3Uj3qdKhnxiv/+VJ5LL/C0II=
-		</data>
-		<key>Images.bundle/default_portrait_msg@3x.png</key>
-		<data>
-		PD/1exbQNwEcdrFuyWV13EDtksk=
-		</data>
-		<key>Images.bundle/en.lproj/Root.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			t4KY9Gh4uIiOv7VnHtRrKEuPRY8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Info.plist</key>
 		<data>
 		X5v9hDO4z5duSdYPebIqpcBtHlo=
@@ -100,52 +75,6 @@
 			<data>
 			6Md5YrWbXYlAfzkQn3nZ0MYgaIR70lSxRoYQjLmMu1g=
 			</data>
-		</dict>
-		<key>Images.bundle/Root.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			jOhqEUF1/xyY+fuswiWT+ELC3dI=
-			</data>
-			<key>hash2</key>
-			<data>
-			m26DmegPkB5jwUJkVEtLlObYALX8He100Ny0+NNJg/g=
-			</data>
-		</dict>
-		<key>Images.bundle/default_portrait_msg@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			C0s3Uj3qdKhnxiv/+VJ5LL/C0II=
-			</data>
-			<key>hash2</key>
-			<data>
-			UjnYVkKNDFrtwU+ajeRZQzzbVe+soWsUmOj8dqhsajE=
-			</data>
-		</dict>
-		<key>Images.bundle/default_portrait_msg@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			PD/1exbQNwEcdrFuyWV13EDtksk=
-			</data>
-			<key>hash2</key>
-			<data>
-			By4b0sZ363s26tlgzVdRnNoWWlhJmoVwCEqUHWtVLEU=
-			</data>
-		</dict>
-		<key>Images.bundle/en.lproj/Root.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			t4KY9Gh4uIiOv7VnHtRrKEuPRY8=
-			</data>
-			<key>hash2</key>
-			<data>
-			xUzNd7J7w99oAnMIWGe1dAGArHMuEXwQqxSziDU5vLk=
-			</data>
-			<key>optional</key>
-			<true/>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>

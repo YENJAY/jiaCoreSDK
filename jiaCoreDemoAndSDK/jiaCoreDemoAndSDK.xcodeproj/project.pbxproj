@@ -690,6 +690,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.wjy.jiaCoreSDKLib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -712,6 +713,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.wjy.jiaCoreSDKLib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = NO;
@@ -762,6 +764,7 @@
 				34124AD91D2B516500E2AB5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		34124ADA1D2B516500E2AB5E /* Build configuration list for PBXNativeTarget "jiaCoreDemoAndSDKTests" */ = {
 			isa = XCConfigurationList;
@@ -770,6 +773,7 @@
 				34124ADC1D2B516500E2AB5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		34124ADD1D2B516500E2AB5E /* Build configuration list for PBXNativeTarget "jiaCoreDemoAndSDKUITests" */ = {
 			isa = XCConfigurationList;
@@ -778,6 +782,7 @@
 				34124ADF1D2B516500E2AB5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		34124AFC1D2B51C200E2AB5E /* Build configuration list for PBXNativeTarget "jiaCoreSDKLib" */ = {
 			isa = XCConfigurationList;
@@ -786,6 +791,7 @@
 				34124AFE1D2B51C200E2AB5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		34124B001D2B51C200E2AB5E /* Build configuration list for PBXNativeTarget "jiaCoreSDKLibTests" */ = {
 			isa = XCConfigurationList;
@@ -794,6 +800,7 @@
 				34124B021D2B51C200E2AB5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

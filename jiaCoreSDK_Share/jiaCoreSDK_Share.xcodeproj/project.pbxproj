@@ -39,6 +39,8 @@
 		347CC0BA1D2A69C900BFE7EE /* jiaCoreSDK_Share.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = jiaCoreSDK_Share.bundle; sourceTree = "<group>"; };
 		347CC0BC1D2A6A5600BFE7EE /* jiaDefaultImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jiaDefaultImage.h; sourceTree = "<group>"; };
 		347CC0BD1D2A6A5600BFE7EE /* jiaDefaultImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jiaDefaultImage.m; sourceTree = "<group>"; };
+		34B615711D2B7FAD007B1C5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34B6157B1D2B800F007B1C5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,8 @@
 			children = (
 				347CC0961D2A527F00BFE7EE /* jiaCoreSDK_Share */,
 				347CC0A21D2A527F00BFE7EE /* jiaCoreSDK_ShareTests */,
+				34B615701D2B7FAD007B1C5C /* jiaCoreSDK_Images */,
+				34B6157A1D2B800F007B1C5C /* jiaCoreSDK_Images */,
 				347CC0951D2A527F00BFE7EE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -107,6 +111,22 @@
 				347CC0BA1D2A69C900BFE7EE /* jiaCoreSDK_Share.bundle */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		34B615701D2B7FAD007B1C5C /* jiaCoreSDK_Images */ = {
+			isa = PBXGroup;
+			children = (
+				34B615711D2B7FAD007B1C5C /* Info.plist */,
+			);
+			path = jiaCoreSDK_Images;
+			sourceTree = "<group>";
+		};
+		34B6157A1D2B800F007B1C5C /* jiaCoreSDK_Images */ = {
+			isa = PBXGroup;
+			children = (
+				34B6157B1D2B800F007B1C5C /* Info.plist */,
+			);
+			path = jiaCoreSDK_Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
